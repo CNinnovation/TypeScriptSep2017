@@ -10,7 +10,7 @@ Experiment with TypeScript code using the **Playground**
 
 Questions:
 
-1. Can you delcare a variable of type void?
+1. Can you declare a variable of type void?
 2. What value can you assign to a variable of type any?
 3. Can you change the value of a variable of type *any* after it has been initialized?
 4. If you do not declare a type for a variable, can you change the type after it's first use?
