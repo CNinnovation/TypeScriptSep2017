@@ -1,2 +1,3 @@
-# TypeScriptSep2017
-TypeScript Workshop in Vienna, Sep-2017
+# TypeScript Workshop Sep-2017
+
+Labs and sample code for the TypeScript workshop in Vienna
