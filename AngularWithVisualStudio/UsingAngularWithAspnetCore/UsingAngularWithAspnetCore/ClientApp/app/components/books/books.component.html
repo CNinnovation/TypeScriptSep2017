@@ -1,0 +1,22 @@
+<h1>Sample Books</h1>
+
+<p>This component demonstrates fetching data from the server.</p>
+
+<p *ngIf="!books"><em>Loading...</em></p>
+
+<table class='table' *ngIf="books">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Title</th>
+            <th>Publisher</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let book of books">
+            <td>{{ book.bookId }}</td>
+            <td>{{ book.title }}</td>
+            <td>{{ book.publisher }}</td>
+        </tr>
+    </tbody>
+</table>
